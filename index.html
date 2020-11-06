@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!-- comentario -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style/main.css" media="screen" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="style/responsive.css" media="screen" />
+
+   <!-- SITE THEMOVIEDB.ORG -->
+   <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+   
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <NAV>
+                <A href="#">Inicio</A>
+                <A href="#">Séries</A>
+                <A href="#">Filmes</A>
+                <A href="#">Documentarios</A>
+            </NAV>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button >
+                    <button role="button" class="botao" onclick="location. href= 'movieinfo.html' ">
+                        <i class="fas fa-info-circle"> MAIS INFORMAÇÕES </i>                        
+                    </button>  
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/MIN_AVES_RAPINA.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_BAD_BOYS.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_CAPITAO_AMERICA.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_ELITE.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_GOOD_DOCTOR.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_GREYS_ANATOMY.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_INVASAO.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_ORIGEM_SECRETAS.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_RIVERDALE.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_SANGUE_ZEUS.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_SUBURRA.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/MIN_THE_BOYS.jpg"></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2a1a0eb3a6.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>

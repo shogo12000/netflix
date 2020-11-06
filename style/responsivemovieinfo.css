@@ -1,0 +1,33 @@
+
+@media screen and (max-width:780px){
+
+    .filme-info .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabela1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    .tabela2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%
+    }
+
+    .container{
+        margin-left: 0px;
+    }
+
+    .botao{
+        position: absolute;
+        margin: 0;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+}
